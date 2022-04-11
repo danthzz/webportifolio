@@ -438,9 +438,10 @@ img{
 }
 
 .about__info-title1:hover{
-   color: var(--first-color);
-   cursor: pointer;
-}
+    color: var(--first-color);
+    cursor: pointer;
+ }
+ 
 
 /*==================== SKILLS ====================*/
 .skills__container{
@@ -510,22 +511,27 @@ img{
 }
 
 .skills__html{
-    width: 50%;
+    width: 60%;
 }
 
 .skills__css{
-    width: 40%;
+    width: 50%;
 }
 
 .skills__js{
-    width: 40%;
+    width: 50%;
 }
 
 .skills__react{
+    width: 45%;
+}
+
+.skills__angular{
     width: 40%;
 }
+
 .skills__type{
-    width: 25%;
+    width: 30%;
 }
 
 .skills__python{
@@ -533,7 +539,7 @@ img{
 }
 
 .skills__node{
-    width: 20%;
+    width: 40%;
 }
 
 .skills__hardwere{
@@ -552,12 +558,6 @@ img{
     width: 70%;
 }
 
-.skills__spanish{
-    width: 10%;
-}
-.skills__french{
-    width: 10%;
-}
 
 .skills__close .skills__list{
     height: 0;
